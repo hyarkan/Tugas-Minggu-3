@@ -8,6 +8,14 @@ AI digunakan sebagai alat bantu untuk mendukung implementasi dan debugging aplik
 
 AI membantu dalam penyusunan model SQLAlchemy, konfigurasi Alembic dan migrasi database, pembuatan endpoint registrasi PMB, validasi input dan penanganan error, serta penyusunan dokumentasi.
 
+## Prompt Terbaik
+
+Prompt yang dipilih dan dirangkum dari kebutuhan pengerjaan proyek:
+
+"Bantu saya mengembangkan aplikasi PMB berbasis FastAPI menggunakan SQLAlchemy 2.0 dan Alembic. Implementasikan tiga model tabel beserta atribut dan constraint yang diperlukan, konfigurasi migrasi database dengan pengujian upgrade dan downgrade, serta buat endpoint POST /api/pmb/register. Pastikan endpoint memiliki validasi input, menolak email duplikat dengan HTTP 409, dan menangani kesalahan data seperti tanggal lahir, program studi, serta jalur masuk yang tidak valid. Berikan penjelasan implementasi dan langkah pengujian agar hasilnya dapat diperiksa."
+
+Prompt tersebut digunakan sebagai acuan untuk memperoleh bantuan AI dalam implementasi dan pengujian aplikasi PMB.
+
 ## Pengujian
 
 Pengujian mencakup skenario berikut:
